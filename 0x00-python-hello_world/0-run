@@ -1,2 +1,2 @@
-#!/bin/sh
-./main.py
+#!/bin/bash
+./main.py /n
