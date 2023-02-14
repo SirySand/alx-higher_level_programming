@@ -8,5 +8,5 @@ for i in range(-10, 10):
         print('{} is zero'.format(number))
     elif number < 0:
         print('{} is negative'.format(number))
-    else
+    else:
 print('\n')
