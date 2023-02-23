@@ -1,2 +1,4 @@
 #!/usr/bin/python3
-print($poem)
+
+with open('The_Zen.txt', 'r') as f:
+    print(f.read())
