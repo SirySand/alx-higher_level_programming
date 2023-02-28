@@ -7,8 +7,8 @@ def uppercase(str):
     """
     for i in str:
         if ord(i) >= 97 and ord(i) <= 122:
-            print("{}"str.format(ord(i) - 32), end="")
+            print("{}"str.format(ord(i - 32)), end="")
         elif i == str[-1]:
-            print("{}"str.format(ord(i) - 32))
+            print("{}"str.format(ord(i - 32)))
         else:
             i += 1
