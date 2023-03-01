@@ -2,6 +2,5 @@
 
 def add(a, b):
     result = a + b
-    print("{} + {} = {}".format(a, b, result))
 
     return result
