@@ -9,4 +9,4 @@ and use it here to do calculation
 a = 1
 b = 2
 
-print("{:d} + {:d} = {:d}\n".format(a, b, add(a, b)),)
+print("{} + {} = {}\n".format(a, b, add(a, b)))
