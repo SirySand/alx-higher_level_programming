@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-from add_0 import add
+import add_0
 
 """
 This is a script that import a function from a file
@@ -9,6 +9,5 @@ and use it here to do calculation
 a = 1
 b = 2
 
-__import__("add_0")
+print("{} + {} = {}\n".format(a, b, add_0.add(a, b)),)
 
-print("{} + {} = {}".format(a, b, add(a, b)))
