@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-if __name__ == '__main__':
+if __name__ == "__main__":
     from add_0 import add
 """
 This is a script that import a function from a file
@@ -9,4 +9,4 @@ and use it here to do calculation
 a = 1
 b = 2
 
-print("{} + {} = {}\n".format(a, b, add(a, b)))
+print("{} + {} = {}".format(a, b, add(a, b)))
