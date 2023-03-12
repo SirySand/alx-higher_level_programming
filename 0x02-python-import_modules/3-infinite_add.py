@@ -5,7 +5,7 @@ if __name__ == "__main__":
 # chech that there are arguments
 if len(sys.argv) > 1:
     # Initialize the sum to 0
-    sum = 0
+    result_sum = 0
 
     # Iterate through the arguments
     for arg in sys.argv[1:]:
