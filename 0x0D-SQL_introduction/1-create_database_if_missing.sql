@@ -1,3 +1,5 @@
+#!/bin/bash
 -- a script that creates a database
 -- should not fail if the database already exists
-CREATE DATABASE hbtn_0c_0\g
+mysql -uroot -p;
+CREATE DATABASE hbtn_0c_0;
