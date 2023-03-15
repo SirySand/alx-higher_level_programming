@@ -1,3 +1,2 @@
 #!/bin/bash
-
-mysql -uroot -p -e "SHOW DATABASES;"
+mysql -uroot -proot -e "SHOW DATABASES;"
