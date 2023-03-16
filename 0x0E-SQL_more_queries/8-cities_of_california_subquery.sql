@@ -9,5 +9,22 @@ INSERT IGNORE INTO states (
 )VALUES(
 'California'
 );
-SELECT*FROM cities
+INSERT IGNORE INTO cities (
+	name
+)VALUES(
+'San Francisco'
+);
+INSERT IGNORE INTO cities (
+        name
+)VALUES(
+'San Jose'
+);
+INSERT IGNORE INTO cities (
+        name
+)VALUES(
+'Los Angeles'
+);
+SELECT cities.id, cities.name
+FROM cities
+WHERE state_id = (SELECT id FROM states WHERE name = "California")
 ORDER BY cities.id;
