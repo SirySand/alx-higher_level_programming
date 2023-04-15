@@ -6,4 +6,4 @@ const myPython = 'Python is cool';
 const myJavascript = 'Javascript is amazing';
 console.log(myC);
 console.log(myPython);
-console.log(myJavasccript);
+console.log(myJavascript);
