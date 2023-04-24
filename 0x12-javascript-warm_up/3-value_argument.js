@@ -2,9 +2,8 @@
 
 const firstArg = process.argv[2];
 
-let i = 0;
-while (process.argv[i] < process.argv[2]) {
+if (!firstArg) {
   console.log('No argument');
-  i++;
+} else {
+  console.log(firstArg);
 }
-console.log(firstArg);
